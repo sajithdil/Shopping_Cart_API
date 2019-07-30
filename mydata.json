@@ -7,7 +7,8 @@
     "Role": 1,
     "Note": 1,
     "Product": 6,
-    "Cart": 2
+    "Cart": 2,
+    "CartItem": 7
   },
   "models": {
     "User": {},
@@ -25,6 +26,7 @@
     },
     "Cart": {
       "1": "{\"total\":0,\"id\":1}"
-    }
+    },
+    "CartItem": {}
   }
 }

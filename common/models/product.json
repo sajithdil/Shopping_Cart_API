@@ -24,6 +24,15 @@
   },
   "validations": [],
   "relations": {
+    "carts": {
+      "type": "hasMany",
+      "model": "Cart",
+      "foreignKey": "cartId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "CartItem"
+    }
   },
   "acls": [],
   "methods": {}

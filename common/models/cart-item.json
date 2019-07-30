@@ -14,10 +14,35 @@
       "type": "number",
       "required": true,
       "default": 0
+    },
+    "UnitPrice": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "cartId": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "productId": {
+      "type": "number",
+      "required": true,
+      "default": 0
     }
   },
   "validations": [],
   "relations": {
+    "cart": {
+      "type": "belongsTo",
+      "model": "Cart",
+      "foreignKey": "cartId"
+    },
+    "product": {
+      "type": "belongsTo",
+      "model": "Product",
+      "foreignKey": "productId"
+    }
   },
   "acls": [],
   "methods": {}

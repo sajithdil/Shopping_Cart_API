@@ -1,0 +1,29 @@
+{
+  "name": "CartItemData",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CartId": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "ProductId": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "Quantity": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

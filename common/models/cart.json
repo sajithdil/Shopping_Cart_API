@@ -20,6 +20,15 @@
   },
   "validations": [],
   "relations": {
+    "products": {
+      "type": "hasMany",
+      "model": "Product",
+      "foreignKey": "productId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "CartItem"
+    }
   },
   "acls": [],
   "methods": {}
