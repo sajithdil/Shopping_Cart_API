@@ -6,9 +6,9 @@
     "RoleMapping": 1,
     "Role": 1,
     "Note": 1,
-    "Product": 6,
+    "Product": 7,
     "Cart": 2,
-    "CartItem": 7
+    "CartItem": 8
   },
   "models": {
     "User": {},
@@ -25,8 +25,10 @@
       "5": "{\"Name\":\"Hacksaw\",\"Price\":19.45,\"id\":5}"
     },
     "Cart": {
-      "1": "{\"total\":0,\"id\":1}"
+      "1": "{\"total\":125.76,\"id\":1}"
     },
-    "CartItem": {}
+    "CartItem": {
+      "7": "{\"quantity\":1,\"UnitPrice\":125.76,\"cartId\":1,\"productId\":1,\"id\":7}"
+    }
   }
 }
