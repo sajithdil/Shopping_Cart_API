@@ -8,7 +8,7 @@ LoopBack is a highly-extensible, open-source Node.js framework that enables you 
 
 The model schema of the cart is found below:
 
-![Database Schema](images/shopping_cart.png)
+![Database Schema](https://github.com/sajithdil/Shopping_Cart_API/blob/master/images/shopping_cart.png)
 
 The base idea was to create a many to many relationship between carts-and-products using CartItems in-between
 
