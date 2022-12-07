@@ -22,7 +22,7 @@
     "loopback": "^3.28.0"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^8.29.0",
     "eslint-config-loopback": "^8.0.0"
   },
   "repository": {
